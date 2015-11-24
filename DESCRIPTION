@@ -1,0 +1,19 @@
+Package: travis
+Type: Package
+Title: Travis CI Client for R
+Version: 0.0.1
+Authors@R:
+    person("Jeroen", "Ooms", , "jeroen.ooms@stat.ucla.edu", role = c("cre", "aut"))
+Description: Tools to interface with a Travis CI service from R. Reimplements some
+    functionality from the official Travis CLI and Ruby library.
+License: MIT + file LICENSE
+URL: https://github.com/jeroenooms/travis
+BugReports: https://github.com/jeroenooms/travis/issues
+VignetteBuilder: knitr
+Imports:
+    openssl,
+    jsonlite,
+    curl
+Suggests:
+    testthat,
+    knitr
