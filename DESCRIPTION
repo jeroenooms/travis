@@ -11,7 +11,7 @@ URL: https://github.com/jeroenooms/travis
 BugReports: https://github.com/jeroenooms/travis/issues
 VignetteBuilder: knitr
 Imports:
-    openssl,
+    openssl (>= 0.6),
     jsonlite,
     curl
 Suggests:
